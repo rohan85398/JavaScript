@@ -1,0 +1,29 @@
+There are two data types
+1.Primitive(call by value)(string,null,Number,Boolean,Undefined,Symbol,BigInt)
+const num=12.7
+const mm=null//case sensitive
+const person;
+const sex=Symbol("145")//symbol is used to create different datatypes for unique id's
+const gender=Symbol("145")
+console.log(sex===gender)//results false
+const npsf=12233654789556956985n//n convert number to BigInt
+
+2.Non-Primitive(reference type)(array,Objects,Functions)
+const fruits=["aam",'kela',"amrud","santra","sev"]
+Objects
+let Obj={name:"kush",age:20}
+const fum=function(){console.log("Hello")}
+null ka typeof se data object aata hai
+
+saare non primitive ka data type function hot ahai aur funtion ka object funtion hota hai
+ 
+Stack (Primitive)---copy,Heap(Non-Primitive)---reference
+
+
+
+
+
+
+
+
+
