@@ -2,12 +2,12 @@ const user={
     username:"abhi",
     price:1000,
 
-    welcomeMessage:function() {//console.log(`hii welome to my website ${this.username}`); /*this--> used for object only in this way*/   console.log(this)
+    welcomeMessage:function() {console.log(`hii welome to my website ${this.username}`); /*this--> used for object only in this way*/   console.log(this)
     }// 'this'  used for current value(context)
    
 
 }
-//user.welcomeMessage()
+user.welcomeMessage()
 
 //Arrow function
 
