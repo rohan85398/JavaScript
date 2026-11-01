@@ -18,13 +18,6 @@ const kuta= () => {return console.log(this)}  //arrow function
 
 console.log(kuta());//takes this from surrounding hence gives {}
 
-const add=(num1,num2) => ({username:"rohan"})//no return stastement required(implicit return)
+const add=(num1,num2) => ({username:"rohan"})//no return statement required(implicit return)
 console.log(add(3,5)) 
-//IIFE(Immediately Invoked Function Expressions)
-//global scope ke pollution sse bachne ke liye use krte hai
-
- (function tmn(){
-    console.log(`kushagra`);
-    
-})();
 
